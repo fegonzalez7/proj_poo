@@ -49,7 +49,7 @@ Condiciones:
  + Resolver un problema de optimización propio
  + Obtener gráficas tesas
 
- **Importante:** Espero que esta sea la elección de las personas que son de ciencias de la computación, no espero menos. Si necesitan bibliografía, tengo bastante, yo tuve que hacer una implementación en Matlab.
+ **Importante:** Espero que esta sea la elección de las personas que son de ciencias de la computación (mi amigo el de los informes), no espero menos. Si necesitan bibliografía, tengo bastante, yo tuve que hacer una implementación en Matlab.
 
 ### Alternativa 4
 Dado que no todo lo tengo que proponer yo, les traigo la opción libre de proyecto, donde se tendrá la posibilidad de elegir un problema acotado del área de estudio de cada equipo y resolverlo empleado un desarrollo en *python*. Las condiciones para el desarrollo del proyecto libre son más generales.
@@ -79,7 +79,7 @@ Condiciones:
     Se debe incluir los requerimientos para crear un entorno virtual. <br>
     El repo debe tener como colaboradores a todos los miembros del equipo, de forma que se evidencie que trabajaron de forma colectiva. <br>
     Opcional:<br>
-    GUI, Docker, Manejod e Hilos.
+    GUI, Docker, Manejo de exceptciones e Hilos.
     </td>
 	</tr>
   <tr style="text-align: left; vertical-align: middle;" bgcolor="#e4e4ed">
