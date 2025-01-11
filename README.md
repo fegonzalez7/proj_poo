@@ -20,6 +20,7 @@ Condiciones:
  + Manejo de archivos para persistencia de datos
  + Generacion de reportes en forma de documentos
 
+ Lo conservamos para mis amigos de industrial.
 
 ### Alternativa 2
 Construir una aplicación que emule un **un sistema de webscrapping** utilizando *Python*. (Esto lo propongo porque sé cómo hacerlo).
@@ -29,11 +30,12 @@ Condiciones:
  + Uso de herramientas vistas en el curso (CLASES)
  + Operaciones:
   - Extraer texto de sitios estilo wiki (2 o 3 urls)
-  - Extraer y organizar datos de productos de sitios de retail (estilo mercado libre, exito u otros ecommerces)
+  - Extraer y organizar las publicaciones de un sitio de *real state* (metro cuadrado, ciencuadras, properati, etc), sectorizando por una ciudad (en caso que la ciudad sea principal - elegir una localidad)
 
 **Features extra:**<br>
  + Generacion de reportes en forma de documentos
- + Aumentar el tipo de sitios para scrappear 
+ + Aumentar el alcance del sitio screappeado
+ + Categorizar los resultados y aplicar un modelo básico de proyección de precios de inmuebles
 
 ### Alternativa 3
 Construir una aplicación que emule el **algorimo PSO** utilizando *Python*.
@@ -52,6 +54,21 @@ Condiciones:
  **Importante:** Espero que esta sea la elección de las personas que son de ciencias de la computación, no espero menos. Si necesitan bibliografía, tengo bastante, yo tuve que hacer una implementación en Matlab.
 
 ### Alternativa 4
+Desarrollar una aplicación en Python que permita **simular circuitos RC, RL, RLC** simples.
+Condiciones:
+ + Código original
+ + Uso de herramientas vistas en el curso (CLASES) - Los componentes deben aplicar el enfoque de POO (e.g una Resistencia debe tener atributos como: resistividad, potencia, etc)
+ + Se deben poder configurar los componentes en serie y en paralelo
+ + Se deben trabajar con fuentes de tensión en DC unicamente
+ + El resultado de la simulación deben ser las gráficas de tensión/corriente en cada uno de los componentes 
+ + Se pueden utilizar módulos externos para la solución de los componentes númericos
+
+ **Features extra:**<br>
+ + Hacer analisis en el dominio AC
+
+ Aquí esperaría a mis amigos de electrónica.
+
+### Alternativa 5
 Dado que no todo lo tengo que proponer yo, les traigo la opción libre de proyecto, donde se tendrá la posibilidad de elegir un problema acotado del área de estudio de cada equipo y resolverlo empleado un desarrollo en *python*. Las condiciones para el desarrollo del proyecto libre son más generales.
 
 Condiciones:
@@ -63,8 +80,6 @@ Condiciones:
  + Dificultad similar a las otras alternativas, no se vale un programa para calcular tablas de multiplicar.
 
 
- **Disclaimer:** No tengo ideas adicionales, porque creo que cada alternativa se acomoda a los perfiles, si hubiese mecatrónicos.....ufffff les tendría muchas propuestas (no se sientan juzgados, pero pues la nostalgia).
-
  ### Condiciones de entrega:
 
 <table cellspacing="1" bgcolor="">
@@ -73,18 +88,20 @@ Condiciones:
     <th><b>Condición</b></th>
 	</tr>
 	<tr style="text-align: left; vertical-align: middle;" bgcolor="#e4e4ed">
-		<td style="color:#141414">Entregables</td>
-    <td style="color:#141414">Se debe elaborar un repo donde presente la solución al  problema planteado. El repo debe contener la explicación de la solución, cómo se abordo el problema, diagramas de clases . Y una sección de como instalar y usar el desarrollo. <br>
+		<td style="color:#141414">Entregable final</td>
+    <td style="color:#141414">
+    Se debe elaborar un repo donde presente la solución al  problema planteado. El repo debe contener la explicación de la solución, cómo se abordo el problema, diagramas de clases . Y una sección de como instalar y usar el desarrollo. <br>
     El código debe tener la estructura en forma de paquete. <br>
     Se debe incluir los requerimientos para crear un entorno virtual. <br>
     El repo debe tener como colaboradores a todos los miembros del equipo, de forma que se evidencie que trabajaron de forma colectiva. <br>
     Opcional:<br>
-    GUI, Docker, Manejod e Hilos.
+    GUI, Docker, Manejo de Hilos.
     </td>
 	</tr>
   <tr style="text-align: left; vertical-align: middle;" bgcolor="#e4e4ed">
     <td style="color:#141414">Fecha</td>
-    <td style="color:#141414">Avance: Semana 12  <br> Entrega final: Semana 17. <br> Se publicará horarios de presentación de 15 minutos para cada grupo, es posible que traiga uno o dos jurados para que den concepto de su solución.<br>
+    <td style="color:#141414">Avance: Según calendario definido  <br> 
+    Entrega final: Según calendario definido <br> Se publicará horarios de presentación de 15 minutos para cada grupo, es posible que traiga uno o dos jurados para que den concepto de su solución.<br>
     Fechas tentativas, sujetas a cambios por anormalidad.
     </td>
 	</tr>
@@ -102,8 +119,11 @@ Condiciones:
   <tr style="text-align: left; vertical-align: middle;" bgcolor="#e4e4ed">
     <td style="color:#141414">Nota</td>
     <td style="color:#141414">
-    Avance (15%) - Definición de alternativa - Diagramas de clases - Solución preliminar -> Exposición oral, 10 minutos.
-    Entrega Final (25%)
+    Avance (15%) <br> 
+    Definición de alternativa - Diagramas de clases - Solución preliminar -> Exposición oral, 10 minutos. <br>
+    Criterios evaluación avance: claridad de la exposición (20%), calidad de entregables (40%), temas del curso adecuadamente empleados (40%).<br> 
+    Entrega Final (25%) <br> 
+    Criterios evaluación entrega final: Funcionalidad (45%), repositorio (30%), claridad presentación (20%), bonus (5%).
     </td>
 	</tr>
 </table>
